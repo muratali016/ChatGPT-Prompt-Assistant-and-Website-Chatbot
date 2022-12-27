@@ -3,7 +3,7 @@ from openai import Completion
 import tkinter as tk
 
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "Your API key"
 
 # Create the main window
 root = tk.Tk()
