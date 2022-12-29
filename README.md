@@ -1,4 +1,4 @@
-# ChatGPT-tkinter-app
+# ChatGPT-Website-Chatbot
 
 Custom ChatGPT 
 
