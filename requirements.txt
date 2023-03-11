@@ -1,1 +1,7 @@
+Flask==2.0.3
+Flask_Limiter==1.5
+nltk==3.6.7
+numpy==1.19.5
 openai==0.8.0
+SpeechRecognition==3.9.0
+torch==1.10.2
