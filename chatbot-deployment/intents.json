@@ -1,0 +1,61 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Hola, amigo"],
+    "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+    
+  },
+  {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye"],
+    "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+  },
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "hours",
+    "patterns": ["What hours are you open?", "What are your hours?", "When are you open?","Are you guys open now" ],
+    "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+  },
+  {"tag": "cars",
+    "patterns": ["Which cars do you have?", "What kinds of cars are there?"],
+    "responses": ["We rent sedan, jeep and taxi", "We have jeep, sedan and taxi"]
+  },
+  {"tag": "bikes",
+    "patterns": ["Which bike do you have?", "What kinds of fancy bike are there?"],
+    "responses": ["We rent sports bike, touring and cruiser", "We have harley for cruiser and touring, for sports yamaha is available"]
+  },
+  {"tag": "payments",
+    "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?","Can I pay in cash"],
+    "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+  },
+  {"tag": "opentoday",
+    "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+    "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+  },
+  {"tag": "options",
+    "patterns": ["what do you guys rent?", "What are my options", "What transports can i get here" ],
+    "responses": ["we rent cars and bikes", "we have huge availability of cars and bikes"]
+ 
+  },
+   {"tag": "rental",
+    "patterns": ["What rental policy is followed here", "how do you guys charge", "How does this work?" ],
+    "responses": ["We charge both way by days and by distance", "We have two ways of rental policy, days or distance travelled"]
+ 
+  },
+  {"tag": "bytime",
+    "patterns": ["Time policy seems interesting", "What are your time policy", "I am curious about days policy","I think, i will save more on days policy" ],
+    "responses": ["We charge Rs 500 per day", "As you wish, we rent at Rs 500 per day"]
+ 
+  },
+  {"tag": "bydistance",
+    "patterns": ["I will prefer by distance", "What are your distance policy", "How much you charge distance wise" ],
+    "responses": ["We charge Rs 200 for per 10 k.m", "Rs 200 per 10 k.m, isnt it cheap?"]
+ 
+  },
+  {"tag": "today",
+    "patterns": ["today", "how to rent", "Can i rent today", "what is renting process"],
+    "responses": ["For rentals today please call 1-800-carbike", "Same-day rentals please call 1-800-carbike"]
+    
+  }
+]
+}
