@@ -1,0 +1,34 @@
+{"intents": [
+  {"tag": "options",
+    "patterns": ["show me options", "options", "what can you do", "what are my options"],
+    "responses": ["These are the options please choose one and tell me: 1-Coding, 2-Blog writing, 3-product marketing, 4-Website creating, 5-Digital marketing, 6-Social media content creating", "please choose one and tell me: 1-Coding, 2-Blog writing, 3-product marketing, 4-Website creating, 5-Digital marketing, 6-Social media content creating"]
+    
+  },
+  {"tag": "Coding",
+    "patterns": ["Coding", "1-coding", "Code","programming"],
+    "responses": ["You can ask for 1-telegram bot, 2-discord bot, 3-Deep neural network in pytorch, 4-Deep neural network in tensorflow, 5-Classification model in pytorch, 6-Classification model in tensorflow, 7-Regression model in pytorch, 8-Complete working regression flow, 9-Pytorch chatbot, 10-Chatterbot chatbot", "You can ask: 1-telegram bot, 2-discord bot, 3-Deep neural network in pytorch, 4-Deep neural network in tensorflow, 5-Classification model in pytorch, 6-Classification model in tensorflow, 7-Regression model in pytorch, 8-Complete working regression flow, 9-Pytorch chatbot, 10-Chatterbot chatbot"]
+  },
+  {"tag": "telegram bot",
+    "patterns": ["telegram bot", "telegram", "1-telegram bot"],
+    "responses": ["Can you help me create a Telegram bot with Python code?", "I need a Telegram bot and I was wondering if you could provide me with some code to get started?", "I'm looking to create a Telegram bot using code, can you assist me with that?","Do you have any tips or resources for creating a Telegram bot with programming code?","I want to build a Telegram bot using code, can you guide me on the process and provide me with some example code?"]
+  },
+  {"tag": "discord bot",
+    "patterns": ["discord bot", "2-discord bot", "discord"],
+    "responses": ["Could you help me create a Discord bot using code in Python/JavaScript?", "I'm interested in building a Discord bot, do you have any resources or example code to help me get started","Can you assist me in creating a Discord bot with code? I'm not sure where to begin","I would like to create a Discord bot using programming code, can you provide me with guidance and some sample code?"]
+  },
+  {"tag": "Blog writing",
+    "patterns": ["blog writing", "Blog","writing"],
+    "responses": ["You can ask for: 1-health blog, 2-gaming blog", "You can ask for chatgpt: 1-health blog, 2-gaming blog"]
+  },
+  {"tag": "health blog",
+    "patterns": ["health", "health blog"],
+    "responses": ["I'm interested in having a health blog created, would you be able to help me with that?", "Can you assist me in building a health blog that covers various topics related to fitness, nutrition, and mental health?","I need a health blog created and I would like it to be informative and engaging, can you help me with that?"]
+
+  },
+  {"tag": "gaming blog",
+    "patterns": ["gaming blog", "gaming"],
+    "responses": ["I would like to create a blog focused on gaming and esports, can you help me get started?", "I'm looking to start a gaming blog and I need someone to create it for me, can you provide me with guidance and create a blog that meets my needs?","Can you assist me in building a gaming blog that covers various topics related to gaming news, reviews, and strategies?"]
+  }
+ 
+]
+}
