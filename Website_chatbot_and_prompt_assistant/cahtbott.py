@@ -6,7 +6,7 @@ import webbrowser
 import time
 
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "" 
 
 
 
